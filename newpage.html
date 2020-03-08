@@ -6,6 +6,15 @@
         body {
             margin: 5% 10% 0 10%
         }
+        nav a {
+            border: 2px solid powderblue;
+            padding: 20px
+            
+        }
+        nav a:hover{background-color: tomato;}
+        body {
+            background-image: url('aurora.jpg');
+        }
     </style>
 </head>
 </html>
@@ -14,16 +23,20 @@
 <body>
     <nav>  <!--This is my comment.-->
         <a href="index.html">Home</a>
-    </nav>
-    <a href="https://www.google.com">This is a link to google.</a>
+    </nav><br><br><br>
+
+    <a href="https://www.google.com" target="_blank">This is a link to google.</a>
+    <br>
+    <a href="#C4">Jump to the button</a>
     <h1>My First Heading</h1>
     <p title="I'm a tooltip.">Wow you found this.</p>
     <h2>Thie is a second heading. </h2>
     <img src="penguin.jpg" alt="a picture of a penguin" style="margin: 0 0 20px 20px;  width: 30%">
     <p><br></p>
-    <h1>Level 1 heading.</h1>
+    <h1 style="color:white">Level 1 heading.</h1>
     <hr>
-    <button>Click me</button>
+    <button id="C4">Click me</button>
+    <button onclick="document.location = 'penguin.jpg'">HTML Tutorial</button>
 
     <ul>
         <li style="color:tomato">cute penguin</li>
@@ -40,7 +53,7 @@
     <del>wow wow</del>
     <p>This is an <q><mark>honest</mark></q> description.</p>
 
-    <ol style="font-family: Georgia, 'Times New Roman', Times, serif;">
+    <ol style="font-family: Georgia, 'Times New Roman', Times, serif;" type="i">
         <li>cute penguin</li>
         <li>lovely peguin</li>
         <li>penguin food</li>
